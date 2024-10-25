@@ -1,0 +1,66 @@
+header{
+    font-size: 18px;
+    color: white;
+    background-color: rgb(0, 0, 0);
+    border: 2px solid rgb(255, 255, 255);
+    text-align: center;
+}
+h1 {
+    color: rgb(255, 255, 255);
+    text-align: center;
+}
+a{
+    text-decoration: none;
+}
+body{ 
+    background-image:url(imagenes/relojes\ logo.png);
+}
+
+.container {
+    display: flex;
+    list-style: none;
+    justify-content: center;
+    flex-direction: row;
+    gap: 30px;
+    color: rgb(255, 255, 255);
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+
+}
+main{
+    padding: 20px;
+}
+
+
+.formulario{
+    width: 300px; 
+    font-size: 25px;
+    color:white;
+    background-color: black;
+}
+.Logos{
+    display:flex;
+    color: rgb(0, 0, 0);
+    gap: 40px;
+    flex-direction:row;
+    text-decoration: none;
+    justify-content: space-between;
+}
+
+.column{
+    flex: 1;
+    margin: 50px;
+    padding: 20px;
+    border-radius: 50px;
+    background-color: white;
+    box-shadow: 0 2px 10px rgb(126, 115, 115);
+    border-radius: 6px;
+    flex-wrap: wrap;
+}
+footer{
+    font-size: large;
+    background-color: black;
+    
+}
+
+
+
