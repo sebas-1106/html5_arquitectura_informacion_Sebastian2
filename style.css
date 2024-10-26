@@ -29,8 +29,6 @@ body{
 main{
     padding: 20px;
 }
-
-
 .formulario{
     width: 300px; 
     font-size: 25px;
@@ -44,6 +42,7 @@ main{
     flex-direction:row;
     text-decoration: none;
     justify-content: space-between;
+    flex-wrap: wrap;
 }
 
 .column{
